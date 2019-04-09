@@ -2,14 +2,40 @@
 % 使用 ctexart 文类，UTF-8 编码
 \documentclass{article}
   \usepackage{xeCJK,indentfirst}
-  \usepackage{amsmath}
+  \usepackage{amsfonts, amsmath, amssymb}
   \usepackage[normalem]{ulem}
+
+  \newtheorem{theorem}{Theorem}[section]
+  \newtheorem{lemma}{Lemma}  
+  \newtheorem{definition}{Definition}[section]
+  \newtheorem{proof}{Proof}[section]  
+  \numberwithin{equation}{section}
+
   \setlength{\parindent}{2em}
   \setlength{\textheight}{240mm}
   \setlength{\textwidth}{155mm}
   \setlength{\oddsidemargin}{0mm}
   \setlength{\evensidemargin}{0mm}
   \setlength{\topmargin}{-20mm}
+
+  \newcommand{\bra}[1]{\langle #1 |}
+  \newcommand{\ket}[1]{| #1 \rangle}
+  \newcommand{\bracket}[2]{\langle #1 | #2 \rangle}
+  \newcommand{\bracketl}[3]{\langle #1 | #2 | #3 \rangle}
+  \newcommand{\func}{\mathrm \,}
+  \newcommand{\define}[2]{
+   \begin{definition}
+    \begin{description}
+    \item[#1]
+    #2
+   \end{description}
+   \end{definition}
+  }
+  \newcommand{\mean}[1]{\langle #1 \rangle}
+
+  \newcommand{\sch}{Schr\"odinger} 
+  \newcommand{\grad}{\nabla}
+
   \renewcommand{\baselinestretch}{1.2}
   \title{王林军老师课题组本科生入门指南}
   \author{Chaoqun ZHANG-张超群\\Rui LI - 李睿}
@@ -131,6 +157,50 @@
   \psi (x) = \langle x | \psi \rangle , \quad \psi(p) = \langle p | \psi \rangle
   \end{equation} 
 \end{enumerate}
+
+\begin{theorem}
+Ehrenfest Theorem:
+
+\begin{align}
+\mean{\textbf{p}}= m \frac{d \mean{\textbf{x}}}{dt}\\
+\mean{\textbf{F}}= \frac{d\mean{\textbf{p}}}{dt}
+\end{align}
+\end{theorem}
+
+\begin{proof}
+  充分考虑到
+  \begin{equation}
+  \frac{d\ket{\phi}}{dt}=\frac{1}{i\hbar}[\frac{\textbf{p}^2}{2m}+V(\textbf{x})]\ket{\phi}
+  \end{equation}
+
+  \begin{align*}
+  \frac{d \mean{\textbf{x}}}{dt}  & = \frac{d \bracketl{\psi}{\textbf{x}}{\psi}}{dt} \\ 
+  & = \frac{d\bra{\psi}}{dt} \textbf{x} \ket{\psi} + \bra{\psi} \textbf{x} \frac{d\ket{\psi}}{dt} \\
+  &= - \frac{1}{i \hbar}\bra{\psi}[\frac{\textbf{p}^2}{2m}+V(\textbf{x})]\textbf{x}\ket{\psi}+ \bra{\psi}\textbf{x}\frac{1}{i\hbar}[\frac{\textbf{p}^2}{2m}+V(\textbf{x})]\ket{\psi}\\
+  &= -\frac{1}{i\hbar}(\frac{\textbf{p}^2}{2m}\textbf{x}-\textbf{x}\frac{\textbf{p}^2}{2m})\ket{\psi}\\
+  &= -\frac{1}{2mi\hbar}\bracketl{\psi}{[\textbf{p}^2,\textbf{x}]}{\psi}\\
+  &=-\frac{1}{2mi\hbar}\bracketl{\psi}{2\textbf{p}[\textbf{p},\textbf{x}]}{\psi}\\
+  &=\frac{1}{m}\bracketl{\phi}{\textbf{p}}{\phi}\\
+  &=\mean{\textbf{p}}
+  \end{align*}
+
+  \begin{align*}
+  \frac{d\mean{\textbf{p}}}{dt} &= \frac{d\bracketl{\psi}{\textbf{p}}{\psi}}{dt}\\
+  &=\frac{d\bra{\psi}}{dt} \textbf{p} \ket{\psi} + \bra{\psi} \textbf{p} \frac{d\ket{\psi}}{dt} \\
+  &= - \frac{1}{i \hbar}\bra{\psi}[\frac{\textbf{p}^2}{2m}+V(\textbf{x})]\textbf{p}\ket{\psi}+ \bra{\psi}\textbf{p}\frac{1}{i\hbar}[\frac{\textbf{p}^2}{2m}+V(\textbf{x})]\ket{\psi}\\
+  &= -\frac{1}{i\hbar}\bracketl{\psi}{[V(\textbf{x}),\textbf{p}]}{\phi} \\
+  & = -\frac{1}{i\hbar}\bracketl{\phi}{i\hbar\frac{\partial V(\textbf{x})}{\partial \textbf{x}}}{\phi}\\
+  & = \bracketl{\phi}{[-\frac{\partial V(\textbf{x})}{\partial \textbf{x}}]}{\phi}\\
+  & = \mean{\textbf{F}}
+  \end{align*}
+
+  \begin{align*}
+  [V(\textbf{x}),\textbf{p}] \ket{\psi} & = [V(x),-i\hbar \frac{\partial}{\partial \textbf{x}}]\ket{\psi}\\
+  & = -i\hbar V(x) \frac{\partial }{\partial \textbf{x}} + i\hbar \frac{\partial}{\partial \textbf{x}}[V(\textbf{x})\ket{\psi}]\\
+  &= -i\hbar V(x) \frac{\partial }{\partial \textbf{x}}+ i\hbar \frac{\partial V(\textbf{x})}{\partial \textbf{x}}\ket{\psi} + i\hbar V(\textbf{x}) \frac{\partial \ket{\psi}}{\partial \textbf{x}}\\
+  &= i\hbar \frac{\partial V(\textbf{x})}{\partial \textbf{x}} \ket{\psi}
+  \end{align*}
+\end{proof}
 
     \section{量子化学-电子结构基础}
 

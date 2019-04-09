@@ -61,6 +61,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 INPUT /usr/local/texlive/2016/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -71,6 +73,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map
@@ -98,6 +102,16 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
@@ -105,6 +119,12 @@ INPUT Guide for ugrs in linjun group.toc
 INPUT Guide for ugrs in linjun group.toc
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 OUTPUT Guide for ugrs in linjun group.toc
 OUTPUT Guide for ugrs in linjun group.xdv
 INPUT Guide for ugrs in linjun group.aux

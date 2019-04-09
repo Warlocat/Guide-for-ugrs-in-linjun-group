@@ -1,12 +1,18 @@
 # Fdb version 3
-["xdvipdfmx"] 1554807067 "Guide for ugrs in linjun group.xdv" "Guide for ugrs in linjun group.pdf" "Guide for ugrs in linjun group" 1554807067
-  "Guide for ugrs in linjun group.xdv" 1554807066 105816 6e455770d154da26c9805807c7bbc5d0 "xelatex"
+["xdvipdfmx"] 1554808581 "Guide for ugrs in linjun group.xdv" "Guide for ugrs in linjun group.pdf" "Guide for ugrs in linjun group" 1554808581
+  "Guide for ugrs in linjun group.xdv" 1554808580 112104 685dc443d0f5b85ad9a6c53cc7a39ff4 "xelatex"
   (generated)
   "Guide for ugrs in linjun group.pdf"
-["xelatex"] 1554807064 "Guide for ugrs in linjun group.tex" "Guide for ugrs in linjun group.xdv" "Guide for ugrs in linjun group" 1554807067
+["xelatex"] 1554808578 "Guide for ugrs in linjun group.tex" "Guide for ugrs in linjun group.xdv" "Guide for ugrs in linjun group" 1554808581
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1246382020 940 75ac932a52f80982a9f8ea75d03a34cf ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -22,6 +28,10 @@
   "/usr/local/texlive/2016/texmf-dist/tex/generic/unicode-data/CaseFolding.txt" 1466630993 78161 e3fbf2f626f10070000fe66f3a2ff5ef ""
   "/usr/local/texlive/2016/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt" 1466630993 16830 fea30f45a2f81ffa474fd984d297e2ea ""
   "/usr/local/texlive/2016/texmf-dist/tex/generic/unicode-data/UnicodeData.txt" 1466630993 1686443 dde25b1cf9bbb4ba1140ac12e4128b0b ""
+  "/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1359763108 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
+  "/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty" 1359763108 13829 94730e64147574077f8ecfea9bb69af4 ""
+  "/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd" 1359763108 961 6518c6525a34feb5e8250ffa91731cff ""
+  "/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd" 1359763108 961 d02606146ba5601b5645f987c92e6193 ""
   "/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1480098820 2210 5c54ab129b848a5071554186d0168766 ""
   "/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty" 1480098820 4160 c115536cf8d4ff25aa8c1c9bc4ecb79a ""
   "/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty" 1485129665 84329 81aa65c5042562f79cb421feff9b8bdc ""
@@ -61,11 +71,11 @@
   "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1491389445 32192 c18bc721db8195c55b3f5b993e802bbf ""
   "/usr/local/texlive/2016/texmf-var/web2c/xetex/xelatex.fmt" 1492672231 3746849 0b491056ceb54f69e6ea9ccec3cead46 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "Guide for ugrs in linjun group.aux" 1554807066 1134 1aa37ccd8121aed23e09f2e785bd2f9d ""
-  "Guide for ugrs in linjun group.tex" 1554807064 17863 834454aea1575dba7f8688100b823874 ""
-  "Guide for ugrs in linjun group.toc" 1554807066 865 1abe93b7446a42c2b42017f92918756d ""
+  "Guide for ugrs in linjun group.aux" 1554808580 1135 66300d098faf8a2ed384383da438a063 ""
+  "Guide for ugrs in linjun group.tex" 1554808577 20937 25a5889352afd82e7b2bb2841c3b3428 ""
+  "Guide for ugrs in linjun group.toc" 1554808580 865 9ec072f46c57b6c208f1afd3a6ceb683 ""
   (generated)
   "Guide for ugrs in linjun group.xdv"
-  "Guide for ugrs in linjun group.log"
-  "Guide for ugrs in linjun group.toc"
   "Guide for ugrs in linjun group.aux"
+  "Guide for ugrs in linjun group.toc"
+  "Guide for ugrs in linjun group.log"
